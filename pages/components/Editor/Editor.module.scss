@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.editor {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  border: 0;
+  border-radius: 0;
+  position: fixed;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.preview {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.75);
+  background: #171e22;
+  overflow: scroll;
+}
+
+.savedIndicator {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.saveButton {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+}

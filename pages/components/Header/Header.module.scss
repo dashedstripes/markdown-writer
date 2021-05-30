@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.actionContainer {
+  background: #171e22;
+  display: flex;
+}
+
+.logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 40px;
+}
+
+.actionButton {
+  background: none;
+  border: 0;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0;
+  margin: 0;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+}
