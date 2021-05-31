@@ -12,7 +12,7 @@ const StorageBackendSelector = () => {
 
   return (
     <>
-      <button onClick={() => setIsModalOpen(true)}>Select Storage Backend</button>
+      <button onClick={() => setIsModalOpen(true)}>Select Storage Backend ({storageBackend?.value})</button>
       {isModalOpen && (
         <Modal
           isOpen={isModalOpen}

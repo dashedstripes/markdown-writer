@@ -37,6 +37,6 @@ export default async (req, res) => {
 
   console.log(response.data?.id);
 
-  res.status(200).json({ fileId: response.data?.fileId });
+  res.status(200).json({ fileId: response.data?.id });
   
 };
